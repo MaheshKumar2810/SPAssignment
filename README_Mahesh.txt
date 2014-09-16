@@ -7,7 +7,7 @@ USN        :1PI12IS006
 Question No.: 3
 Question Title: Username, Password Reading from a file and matching the same.
 
-My team member Akarsh has submitted source code file and Data file which is a text document,
+I have submitted source code file and Data file which is a text document on the github along with assignment2,
 
 asn2_3.c
 Data.txt
@@ -19,7 +19,7 @@ and also Log file will be generated which logs the code operations in the specif
 We have validated the arguments that user passes, i.e, if the above format is violated,
 appropriate messages are displayed and program is made to terminate
 
-*Data.txt includes set of usernames and passwords.
+*Data.txt includes set of usernames,passwords,last login time of users.
 
 *We had used strcmpi() for username which matches usernames irrespective of case, but some compilers
 don't support it, when we tested on ubuntu gcc we got an error, so we have used strcmp().
@@ -28,6 +28,8 @@ don't support it, when we tested on ubuntu gcc we got an error, so we have used 
 with the Data.txt contents, appropriate messages are displayed accordingly based on match/mismatch.
 
 *We tried our level best to mask the password with ****, but we failed in implementing that.
+
+*On every successful login program displays "Welcome Username" along with "Last Login" time and also current login time will be overwritten.
 
 *I hope I haven't missed anything, hoping for the best :p,
 
